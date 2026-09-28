@@ -93,7 +93,7 @@ nav {
   line-height: 1.4;
 }
 
-/* المحاضر */
+
 .instructor {
   display: flex;
   align-items: center;
@@ -134,4 +134,71 @@ nav {
   color: #9d9b9b;
   text-align: right;
   display: block;
+}
+
+
+.categories-section {
+    max-width: 1818px;
+    width: calc(100% - 204px);
+    margin: 70px auto 0 auto;
+}
+
+.categories-title {
+    color: #2f327d;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.category-card {
+    border: 1px solid #ececf3;
+    border-radius: 14px;
+    padding: 26px 22px;
+    text-align: center;
+
+}
+
+
+.category-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0 auto 18px;
+}
+
+.category-icon img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
+}
+
+.icon-mint   { background-color: #d6f2ec; }
+.icon-violet { background-color: #e2ddfb; }
+.icon-blue   { background-color: #dbeafe; }
+.icon-green  { background-color: #d7f2e3; }
+.icon-orange { background-color: #fde3cf; }
+.icon-pink   { background-color: #fbdada; }
+.icon-gray   { background-color: #e5e7eb; }
+.icon-teal   { background-color: #cdeeeb; }
+
+.category-card h3 {
+    color: #2f327d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.category-card p {
+    color: #696984;
+    font-size: 14px;
+    line-height: 1.5;
 }
