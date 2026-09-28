@@ -202,3 +202,104 @@ nav {
     font-size: 14px;
     line-height: 1.5;
 }
+
+
+/* ================= قسم Recommended for you ================= */
+.recommended-section {
+    max-width: 1818px;
+    width: calc(100% - 204px);
+    margin: 70px auto 0 auto;
+    background-color: rgba(157, 204, 255, 0.2);
+    padding: 50px 60px;
+    box-sizing: border-box;
+}
+
+/* حاوية الكروت */
+.courses-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+/* الكرت */
+.course-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 18px;
+    flex: 1;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+}
+
+/* صورة الكورس */
+.course-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+/* سطر (Design + 3 Month) */
+.course-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.course-category,
+.course-duration {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #9d9b9b;
+}
+
+.course-category img,
+.course-duration img {
+    width: 14px;
+    height: 14px;
+}
+
+/* عنوان الكورس */
+.course-card h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #2f327d;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+/* الوصف */
+.course-card p {
+    font-size: 13px;
+    color: #696984;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    flex: 1; /* عشان الفوتر يضل بنفس المستوى بكل الكروت */
+}
+
+/* فوتر الكرت (المحاضر + السعر) */
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* السعر */
+.old-price {
+    text-decoration: line-through;
+    color: #9d9b9b;
+    font-size: 13px;
+    margin-right: 6px;
+}
+
+.new-price {
+    color: #49bbbd;
+    font-size: 18px;
+    font-weight: 700;
+}
