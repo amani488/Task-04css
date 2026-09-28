@@ -172,7 +172,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0 auto 18px;
+    margin-bottom: 18px;
 }
 
 .category-icon img {
@@ -204,7 +204,6 @@ nav {
 }
 
 
-/* ================= قسم Recommended for you ================= */
 .recommended-section {
     max-width: 1818px;
     width: calc(100% - 204px);
@@ -214,14 +213,14 @@ nav {
     box-sizing: border-box;
 }
 
-/* حاوية الكروت */
+
 .courses-container {
     display: flex;
     gap: 24px;
     justify-content: space-between;
 }
 
-/* الكرت */
+
 .course-card {
     background-color: #ffffff;
     border-radius: 20px;
@@ -232,7 +231,7 @@ nav {
     flex-direction: column;
 }
 
-/* صورة الكورس */
+
 .course-img {
     width: 100%;
     height: 160px;
@@ -242,7 +241,6 @@ nav {
     display: block;
 }
 
-/* سطر (Design + 3 Month) */
 .course-info {
     display: flex;
     justify-content: space-between;
@@ -265,7 +263,7 @@ nav {
     height: 14px;
 }
 
-/* عنوان الكورس */
+
 .course-card h3 {
     font-size: 17px;
     font-weight: 600;
@@ -274,23 +272,23 @@ nav {
     margin-bottom: 10px;
 }
 
-/* الوصف */
+
 .course-card p {
     font-size: 13px;
     color: #696984;
     line-height: 1.6;
     margin-bottom: 18px;
-    flex: 1; /* عشان الفوتر يضل بنفس المستوى بكل الكروت */
+    flex: 1; 
 }
 
-/* فوتر الكرت (المحاضر + السعر) */
+
 .course-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* السعر */
+
 .old-price {
     text-decoration: line-through;
     color: #9d9b9b;
@@ -302,4 +300,117 @@ nav {
     color: #49bbbd;
     font-size: 18px;
     font-weight: 700;
+}
+
+
+.choice-section {
+    max-width: 1818px;
+    width: calc(100% - 204px);
+    margin: 70px auto 0 auto;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #1f1d4d;
+    color: #ffffff;
+    margin-top: 90px;
+    padding: 60px 0 30px 0;
+    text-align: center;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    max-width: 1818px;
+    width: calc(100% - 204px);
+    margin: 0 auto;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-line {
+    width: 1px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-text {
+    text-align: left;
+}
+
+.footer-text strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-text p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer-newsletter h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #d6d6ec;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.newsletter-form input {
+    width: 265px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.newsletter-form input::placeholder {
+    color: #a9abc7;
+}
+
+.newsletter-form button {
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: #49bbbd;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 45px;
+    font-size: 16px;
+    color: #a9abc7;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #a9abc7;
+}
+
+.footer-bottom a:hover {
+    color: #ffffff;
 }
